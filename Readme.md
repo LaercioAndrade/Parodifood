@@ -20,10 +20,23 @@ Versão: 1.0:
 
 9 - Criar as pastas Support/ Elements/ PageObjetcs / Steps
 
-10 - Criar os arquivos: TestElements.js / TestSteps.js / TestPage.js dentro das pastas Elements, Steps e PageObjects
+10 - Criar os arquivos: PedidoElements.js / PedidoSteps.js / PedidoPage.js dentro das pastas Elements, Steps e PageObjects
 
 11 - Configurar o arquivo package.json
 
 12 - Configuração do arquivo cypress.json
 
 13 - Subir os ajustes no git e criar a tag 1.0
+
+
+Versão  1.1:
+
+1 - Adicionando a feature Pedido  com o primeiro cenário de adicionar pizza de mussarela
+
+2 - Mapeando os elementos no arquivo PedidoElements.js
+
+3 - Criando as Pages no arquivo PedidoPage.js
+
+4 - Criando os Steps no arquivo PedidoStep.js
+
+5 - Criando o relatório via Allure Reports
