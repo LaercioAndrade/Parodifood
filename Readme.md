@@ -17,3 +17,13 @@ Versão: 1.0:
 7 - Criar o arquivo Readme.md e informar as especificações 
 
 8 - Subir o projeto no Git na versão 1.0 sem nenhuma codificação, somente com as especificações do projeto
+
+9 - Criar as pastas Support/ Elements/ PageObjetcs / Steps
+
+10 - Criar os arquivos: TestElements.js / TestSteps.js / TestPage.js dentro das pastas Elements, Steps e PageObjects
+
+11 - Configurar o arquivo package.json
+
+12 - Configuração do arquivo cypress.json
+
+13 - Subir os ajustes no git e criar a tag 1.0
