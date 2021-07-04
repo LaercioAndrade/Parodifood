@@ -7,7 +7,6 @@ const url = Cypress.config("baseUrl")
 class Page{
     acessarsite(){
         cy.visit(url)
-        cy.wait(2000)
     }
 
     clicarBotaoEstoucomFome(){
@@ -45,6 +44,17 @@ class Page{
 
     validarPizzaMussarelaNoCarrinho(){
         cy.get(PedidoElements.ValidarPizzaMussarelaNoCarrinho()).contains('(1x) Pizza de mussarela')
+        cy.wait(500)
+        cy.screenshot()
+    }
+
+    //CT02
+    clicarBotãoAdicionarPizzaPeperoni(){
+        cy.get(PedidoElements.BotãoAdicionarPizzaPeperoni()).click();
+    }
+
+    ValidarPizzaPeperoniNoCarrinho(){
+        cy.get(PedidoElements.ValidarPizzaPeperoniNoCarrinho()).contains('(1x) Pizza de peperoni')
         cy.wait(500)
         cy.screenshot()
     }

@@ -21,3 +21,15 @@ When("clico em adicionar na pizza de Mussarela", () => {
 Then("valido se aparece no carrinho o item pizza de Mussarela", () => {
     Pedido.validarPizzaMussarelaNoCarrinho();
 })
+
+
+//CT02
+When("clico em adicionar na pizza de Peperoni", () => {
+    Pedido.clicarPizzaBug();
+    Pedido.validarAcessoATelaPizzaBug();
+    Pedido.clicarBotãoAdicionarPizzaPeperoni();
+}),
+
+Then("valido se aparece no carrinho o item pizza de Peperoni", () => {
+    Pedido.ValidarPizzaPeperoniNoCarrinho();
+})
