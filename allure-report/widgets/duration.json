@@ -1,0 +1,11 @@
+[ {
+  "uid" : "7fb93b509b892ffe",
+  "name" : "Adicionar Pizza de Mussarela no Carrinho",
+  "time" : {
+    "start" : 1625342274468,
+    "stop" : 1625342283171,
+    "duration" : 8703
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

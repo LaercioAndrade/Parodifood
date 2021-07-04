@@ -45,6 +45,7 @@ class Page{
 
     validarPizzaMussarelaNoCarrinho(){
         cy.get(PedidoElements.ValidarPizzaMussarelaNoCarrinho()).contains('(1x) Pizza de mussarela')
+        cy.wait(500)
         cy.screenshot()
     }
 

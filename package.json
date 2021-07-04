@@ -1,14 +1,22 @@
 {
-"scripts": {
-    "test:chrome": "cypress run --browser chrome",
-    "test:firefox": "cypress run --browser firefox --no-exit",
-    "test": "cypress run"
-},
-"cypress-cucumber-preprocessor": {
-    "step_definitions":  "cypress/support/Steps"
-},
-"devDependencies": {
-    "cypress": "7.6.0",
-    "cypress-cucumber-preprocessor": "^4.1.3"
-}
+    "scripts": {
+        "test:chrome": "cypress run --browser chrome",
+        "test:firefox": "cypress run --browser firefox --no-exit",
+        "test": "cypress run",
+        "cy:run": "npx cypress run --env allure=true",
+        "allure:generate": "allure generate allure-results",
+        "allure:open": "allure open allure-report",
+        "allure:clear": "rm -r allure-results/ allure-report || true",
+        "test": "npx npm-run-all allure:clear cy:run allure:generate allure:open"
+    },
+    
+    "cypress-cucumber-preprocessor": {
+        "step_definitions": "cypress/support/Steps"
+    },
+    
+    "devDependencies": {
+        "@shelex/cypress-allure-plugin": "^2.8.3",
+        "cypress": "7.6.0",
+        "cypress-cucumber-preprocessor": "^4.1.3"
+    }
 }

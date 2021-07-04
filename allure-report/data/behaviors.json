@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Automatizar o site Parodifood",
+    "children" : [ {
+      "name" : "Adicionar Pizza de Mussarela no Carrinho",
+      "uid" : "7fb93b509b892ffe",
+      "parentUid" : "4f659c820f7d523f85db8b3e8c2f571c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625342274468,
+        "stop" : 1625342283171,
+        "duration" : 8703
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4f659c820f7d523f85db8b3e8c2f571c"
+  } ]
+}
