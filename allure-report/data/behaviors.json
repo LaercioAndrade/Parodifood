@@ -2,21 +2,34 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "Automatizar o site Parodifood",
+    "name" : "Adicionar Pedido ao carrinho",
     "children" : [ {
       "name" : "Adicionar Pizza de Mussarela no Carrinho",
-      "uid" : "7fb93b509b892ffe",
-      "parentUid" : "4f659c820f7d523f85db8b3e8c2f571c",
+      "uid" : "beaebfb37afdd244",
+      "parentUid" : "a81124510774d50c9dfc2bc5f11e9391",
       "status" : "passed",
       "time" : {
-        "start" : 1625342274468,
-        "stop" : 1625342283171,
-        "duration" : 8703
+        "start" : 1625492824612,
+        "stop" : 1625492832083,
+        "duration" : 7471
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Adicionar Pizza de Peperoni",
+      "uid" : "ed4ddde2ab527d9c",
+      "parentUid" : "a81124510774d50c9dfc2bc5f11e9391",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625492832140,
+        "stop" : 1625492834947,
+        "duration" : 2807
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "4f659c820f7d523f85db8b3e8c2f571c"
+    "uid" : "a81124510774d50c9dfc2bc5f11e9391"
   } ]
 }

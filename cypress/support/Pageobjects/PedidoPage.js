@@ -44,9 +44,10 @@ class Page{
 
     validarPizzaMussarelaNoCarrinho(){
         cy.get(PedidoElements.ValidarPizzaMussarelaNoCarrinho()).contains('(1x) Pizza de mussarela')
-        cy.wait(500)
+        cy.wait(1000)
         cy.screenshot()
     }
+
 
     //CT02
     clicarBotãoAdicionarPizzaPeperoni(){
@@ -55,8 +56,7 @@ class Page{
 
     ValidarPizzaPeperoniNoCarrinho(){
         cy.get(PedidoElements.ValidarPizzaPeperoniNoCarrinho()).contains('(1x) Pizza de peperoni')
-        cy.wait(500)
-        cy.screenshot()
+        cy.screenshot() 
     }
 
 }

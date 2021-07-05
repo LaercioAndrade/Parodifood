@@ -1,4 +1,4 @@
-Feature: Automatizar o site Parodifood
+Feature: Adicionar Pedido ao carrinho
 
 Scenario: Adicionar Pizza de Mussarela no Carrinho
     Given que acesso o site Parodifood

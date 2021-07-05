@@ -1,10 +1,20 @@
 [ {
-  "uid" : "7fb93b509b892ffe",
+  "uid" : "beaebfb37afdd244",
   "name" : "Adicionar Pizza de Mussarela no Carrinho",
   "time" : {
-    "start" : 1625342274468,
-    "stop" : 1625342283171,
-    "duration" : 8703
+    "start" : 1625492824612,
+    "stop" : 1625492832083,
+    "duration" : 7471
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed4ddde2ab527d9c",
+  "name" : "Adicionar Pizza de Peperoni",
+  "time" : {
+    "start" : 1625492832140,
+    "stop" : 1625492834947,
+    "duration" : 2807
   },
   "status" : "passed",
   "severity" : "normal"

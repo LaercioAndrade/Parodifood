@@ -3,13 +3,26 @@
   "name" : "packages",
   "children" : [ {
     "name" : "Adicionar Pizza de Mussarela no Carrinho",
-    "uid" : "7fb93b509b892ffe",
+    "uid" : "beaebfb37afdd244",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1625342274468,
-      "stop" : 1625342283171,
-      "duration" : 8703
+      "start" : 1625492824612,
+      "stop" : 1625492832083,
+      "duration" : 7471
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Adicionar Pizza de Peperoni",
+    "uid" : "ed4ddde2ab527d9c",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1625492832140,
+      "stop" : 1625492834947,
+      "duration" : 2807
     },
     "flaky" : false,
     "newFailed" : false,

@@ -1,12 +1,12 @@
 {
-  "uid" : "7fb93b509b892ffe",
+  "uid" : "beaebfb37afdd244",
   "name" : "Adicionar Pizza de Mussarela no Carrinho",
   "fullName" : "Adicionar Pizza de Mussarela no Carrinho",
-  "historyId" : "57cc2189ab0f9d602c0d8d55989515d3",
+  "historyId" : "041dc39a144ae13087c1532a843d46b2",
   "time" : {
-    "start" : 1625342274468,
-    "stop" : 1625342283171,
-    "duration" : 8703
+    "start" : 1625492824612,
+    "stop" : 1625492832083,
+    "duration" : 7471
   },
   "status" : "passed",
   "flaky" : false,
@@ -27,17 +27,17 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1625342274481,
-        "stop" : 1625342274486,
-        "duration" : 5
+        "start" : 1625492824619,
+        "stop" : 1625492824627,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "server",
         "time" : {
-          "start" : 1625342274482,
-          "stop" : 1625342274485,
-          "duration" : 3
+          "start" : 1625492824623,
+          "stop" : 1625492824627,
+          "duration" : 4
         },
         "status" : "passed",
         "steps" : [ ],
@@ -57,8 +57,8 @@
     }, {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1625342274488,
-        "stop" : 1625342274489,
+        "start" : 1625492824633,
+        "stop" : 1625492824634,
         "duration" : 1
       },
       "status" : "passed",
@@ -72,32 +72,17 @@
     }, {
       "name" : "Given que acesso o site Parodifood",
       "time" : {
-        "start" : 1625342274526,
-        "stop" : 1625342279366,
-        "duration" : 4840
+        "start" : 1625492824651,
+        "stop" : 1625492827894,
+        "duration" : 3243
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "visit (\"http://parodifood.qaninja.academy/\")",
         "time" : {
-          "start" : 1625342274528,
-          "stop" : 1625342277348,
-          "duration" : 2820
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false
-      }, {
-        "name" : "wait (\"2000\")",
-        "time" : {
-          "start" : 1625342277348,
-          "stop" : 1625342279359,
-          "duration" : 2011
+          "start" : 1625492824653,
+          "stop" : 1625492827887,
+          "duration" : 3234
         },
         "status" : "passed",
         "steps" : [ ],
@@ -110,23 +95,23 @@
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 2,
+      "stepsCount" : 1,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
       "name" : "And acesso a tela de Restaurante",
       "time" : {
-        "start" : 1625342279366,
-        "stop" : 1625342280379,
-        "duration" : 1013
+        "start" : 1625492827894,
+        "stop" : 1625492828851,
+        "duration" : 957
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "route (\"GET\"; \"**/restaurants\")",
         "time" : {
-          "start" : 1625342279368,
-          "stop" : 1625342279372,
+          "start" : 1625492827897,
+          "stop" : 1625492827901,
           "duration" : 4
         },
         "status" : "passed",
@@ -140,8 +125,8 @@
       }, {
         "name" : "as (\"getRestaurants\")",
         "time" : {
-          "start" : 1625342279372,
-          "stop" : 1625342279373,
+          "start" : 1625492827901,
+          "stop" : 1625492827902,
           "duration" : 1
         },
         "status" : "passed",
@@ -155,9 +140,9 @@
       }, {
         "name" : "get (\".btn\")",
         "time" : {
-          "start" : 1625342279373,
-          "stop" : 1625342279395,
-          "duration" : 22
+          "start" : 1625492827902,
+          "stop" : 1625492827929,
+          "duration" : 27
         },
         "status" : "passed",
         "steps" : [ ],
@@ -170,9 +155,9 @@
       }, {
         "name" : "click",
         "time" : {
-          "start" : 1625342279395,
-          "stop" : 1625342279572,
-          "duration" : 177
+          "start" : 1625492827929,
+          "stop" : 1625492828169,
+          "duration" : 240
         },
         "status" : "passed",
         "steps" : [ ],
@@ -185,8 +170,8 @@
       }, {
         "name" : "http://parodifood.qaninja.academy/restaurants new url",
         "time" : {
-          "start" : 1625342279571,
-          "stop" : 1625342279571,
+          "start" : 1625492828167,
+          "stop" : 1625492828167,
           "duration" : 0
         },
         "status" : "passed",
@@ -200,8 +185,8 @@
       }, {
         "name" : "GET https://parodifood.herokuapp.com/api/restaurants",
         "time" : {
-          "start" : 1625342279572,
-          "stop" : 1625342279572,
+          "start" : 1625492828168,
+          "stop" : 1625492828168,
           "duration" : 0
         },
         "status" : "passed",
@@ -215,9 +200,9 @@
       }, {
         "name" : "wait (\"@getRestaurants\")",
         "time" : {
-          "start" : 1625342279572,
-          "stop" : 1625342280361,
-          "duration" : 789
+          "start" : 1625492828169,
+          "stop" : 1625492828833,
+          "duration" : 664
         },
         "status" : "passed",
         "steps" : [ ],
@@ -230,8 +215,8 @@
       }, {
         "name" : "expected **200** to equal **200** assert",
         "time" : {
-          "start" : 1625342280372,
-          "stop" : 1625342280372,
+          "start" : 1625492828846,
+          "stop" : 1625492828846,
           "duration" : 0
         },
         "status" : "passed",
@@ -252,17 +237,17 @@
     }, {
       "name" : "When clico em adicionar na pizza de Mussarela",
       "time" : {
-        "start" : 1625342280379,
-        "stop" : 1625342281236,
-        "duration" : 857
+        "start" : 1625492828851,
+        "stop" : 1625492829691,
+        "duration" : 840
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "route (\"GET\"; \"**/pizza-bug\")",
         "time" : {
-          "start" : 1625342280382,
-          "stop" : 1625342280385,
-          "duration" : 3
+          "start" : 1625492828855,
+          "stop" : 1625492828860,
+          "duration" : 5
         },
         "status" : "passed",
         "steps" : [ ],
@@ -275,9 +260,9 @@
       }, {
         "name" : "as (\"getPizza-bug\")",
         "time" : {
-          "start" : 1625342280385,
-          "stop" : 1625342280385,
-          "duration" : 0
+          "start" : 1625492828860,
+          "stop" : 1625492828861,
+          "duration" : 1
         },
         "status" : "passed",
         "steps" : [ ],
@@ -290,9 +275,9 @@
       }, {
         "name" : "route (\"GET\"; \"**/menu\")",
         "time" : {
-          "start" : 1625342280385,
-          "stop" : 1625342280388,
-          "duration" : 3
+          "start" : 1625492828861,
+          "stop" : 1625492828865,
+          "duration" : 4
         },
         "status" : "passed",
         "steps" : [ ],
@@ -305,8 +290,8 @@
       }, {
         "name" : "as (\"getMenu\")",
         "time" : {
-          "start" : 1625342280388,
-          "stop" : 1625342280388,
+          "start" : 1625492828865,
+          "stop" : 1625492828865,
           "duration" : 0
         },
         "status" : "passed",
@@ -320,9 +305,9 @@
       }, {
         "name" : "get (\".col-sm-6:nth-child(1)\")",
         "time" : {
-          "start" : 1625342280388,
-          "stop" : 1625342280405,
-          "duration" : 17
+          "start" : 1625492828865,
+          "stop" : 1625492828884,
+          "duration" : 19
         },
         "status" : "passed",
         "steps" : [ ],
@@ -335,9 +320,9 @@
       }, {
         "name" : "click",
         "time" : {
-          "start" : 1625342280405,
-          "stop" : 1625342280637,
-          "duration" : 232
+          "start" : 1625492828884,
+          "stop" : 1625492829106,
+          "duration" : 222
         },
         "status" : "passed",
         "steps" : [ ],
@@ -350,8 +335,8 @@
       }, {
         "name" : "http://parodifood.qaninja.academy/restaurants/pizza-bug/menu new url",
         "time" : {
-          "start" : 1625342280630,
-          "stop" : 1625342280630,
+          "start" : 1625492829105,
+          "stop" : 1625492829105,
           "duration" : 0
         },
         "status" : "passed",
@@ -365,8 +350,8 @@
       }, {
         "name" : "GET https://parodifood.herokuapp.com/api/restaurants/pizza-bug",
         "time" : {
-          "start" : 1625342280634,
-          "stop" : 1625342280634,
+          "start" : 1625492829105,
+          "stop" : 1625492829105,
           "duration" : 0
         },
         "status" : "passed",
@@ -380,8 +365,8 @@
       }, {
         "name" : "GET https://parodifood.herokuapp.com/api/restaurants/pizza-bug/menu",
         "time" : {
-          "start" : 1625342280636,
-          "stop" : 1625342280636,
+          "start" : 1625492829106,
+          "stop" : 1625492829106,
           "duration" : 0
         },
         "status" : "passed",
@@ -395,9 +380,9 @@
       }, {
         "name" : "wait (\"@getPizza-bug\")",
         "time" : {
-          "start" : 1625342280638,
-          "stop" : 1625342280751,
-          "duration" : 113
+          "start" : 1625492829106,
+          "stop" : 1625492829212,
+          "duration" : 106
         },
         "status" : "passed",
         "steps" : [ ],
@@ -410,8 +395,8 @@
       }, {
         "name" : "expected **200** to equal **200** assert",
         "time" : {
-          "start" : 1625342280767,
-          "stop" : 1625342280767,
+          "start" : 1625492829219,
+          "stop" : 1625492829219,
           "duration" : 0
         },
         "status" : "passed",
@@ -425,9 +410,9 @@
       }, {
         "name" : "wait (\"@getMenu\")",
         "time" : {
-          "start" : 1625342280767,
-          "stop" : 1625342281026,
-          "duration" : 259
+          "start" : 1625492829219,
+          "stop" : 1625492829527,
+          "duration" : 308
         },
         "status" : "passed",
         "steps" : [ ],
@@ -440,9 +425,9 @@
       }, {
         "name" : "expected **200** to equal **200** assert",
         "time" : {
-          "start" : 1625342281033,
-          "stop" : 1625342281033,
-          "duration" : 0
+          "start" : 1625492829536,
+          "stop" : 1625492829537,
+          "duration" : 1
         },
         "status" : "passed",
         "steps" : [ ],
@@ -455,9 +440,9 @@
       }, {
         "name" : "get (\":nth-child(1) > .menu-item-info-box > .menu-item-info-box-content > .add-to-cart\")",
         "time" : {
-          "start" : 1625342281033,
-          "stop" : 1625342281050,
-          "duration" : 17
+          "start" : 1625492829537,
+          "stop" : 1625492829553,
+          "duration" : 16
         },
         "status" : "passed",
         "steps" : [ ],
@@ -470,9 +455,9 @@
       }, {
         "name" : "click",
         "time" : {
-          "start" : 1625342281050,
-          "stop" : 1625342281231,
-          "duration" : 181
+          "start" : 1625492829553,
+          "stop" : 1625492829685,
+          "duration" : 132
         },
         "status" : "passed",
         "steps" : [ ],
@@ -492,17 +477,17 @@
     }, {
       "name" : "Then valido se aparece no carrinho o item pizza de Mussarela",
       "time" : {
-        "start" : 1625342281236,
-        "stop" : 1625342283170,
-        "duration" : 1934
+        "start" : 1625492829691,
+        "stop" : 1625492832083,
+        "duration" : 2392
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "get (\"[style=\"opacity: 1;\"] > th\")",
         "time" : {
-          "start" : 1625342281238,
-          "stop" : 1625342281489,
-          "duration" : 251
+          "start" : 1625492829693,
+          "stop" : 1625492829970,
+          "duration" : 277
         },
         "status" : "passed",
         "steps" : [ ],
@@ -515,9 +500,9 @@
       }, {
         "name" : "contains (\"(1x) Pizza de mussarela\")",
         "time" : {
-          "start" : 1625342281489,
-          "stop" : 1625342281508,
-          "duration" : 19
+          "start" : 1625492829971,
+          "stop" : 1625492829991,
+          "duration" : 20
         },
         "status" : "passed",
         "steps" : [ ],
@@ -528,11 +513,11 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "wait (\"500\")",
+        "name" : "wait (\"1000\")",
         "time" : {
-          "start" : 1625342281508,
-          "stop" : 1625342282013,
-          "duration" : 505
+          "start" : 1625492829991,
+          "stop" : 1625492830996,
+          "duration" : 1005
         },
         "status" : "passed",
         "steps" : [ ],
@@ -545,9 +530,9 @@
       }, {
         "name" : "screenshot",
         "time" : {
-          "start" : 1625342282013,
-          "stop" : 1625342283169,
-          "duration" : 1156
+          "start" : 1625492830996,
+          "stop" : 1625492832081,
+          "duration" : 1085
         },
         "status" : "passed",
         "steps" : [ ],
@@ -567,9 +552,9 @@
     }, {
       "name" : "\"after each\" hook",
       "time" : {
-        "start" : 1625342283205,
-        "stop" : 1625342283210,
-        "duration" : 5
+        "start" : 1625492832122,
+        "stop" : 1625492832124,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -581,14 +566,14 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "d2d84e133bfa1289",
-      "name" : "pedido.feature:2021-07-03T19:58:02.033Z",
-      "source" : "d2d84e133bfa1289.png",
+      "uid" : "398deab8c6d41e9e",
+      "name" : "pedido.feature:2021-07-05T13:47:11.018Z",
+      "source" : "398deab8c6d41e9e.png",
       "type" : "image/png",
-      "size" : 148713
+      "size" : 148698
     } ],
     "parameters" : [ ],
-    "stepsCount" : 37,
+    "stepsCount" : 36,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -616,10 +601,10 @@
   } ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Automatizar o site Parodifood"
+    "value" : "Adicionar Pedido ao carrinho"
   }, {
     "name" : "feature",
-    "value" : "Automatizar o site Parodifood"
+    "value" : "Adicionar Pedido ao carrinho"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -634,6 +619,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7fb93b509b892ffe.json",
+  "source" : "beaebfb37afdd244.json",
   "parameterValues" : [ ]
 }
